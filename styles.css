@@ -1,0 +1,61 @@
+body{
+    padding: 25px;
+  }
+  .container {
+   display: grid;
+   grid-template-columns:repeat(1, 2fr);
+   gap: 20px;
+   background-color: rgb(255, 255, 255);
+  }
+
+  table {
+    border: 2px solid powderblue;
+    padding: 30px;
+    background-color: yellow;
+  }
+  
+   table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+  
+      table, th, td {
+        border: 1px solid black;
+      }
+  
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+  
+      header {
+        text-align: center;
+        padding: 20px;
+      }
+  
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%;
+      }
+  
+      section {
+        padding: 20px;
+      }
+  
+      .title {
+        color: blue;
+      }
+  
+  div{
+     background: aqua;
+    width:100%;
+    padding: 20px;
+  }
+  h2{
+    background: aqua;
+    width:100%;
+    padding: 20px;
+  }
