@@ -6,9 +6,9 @@ body {
 }
 
 #header {
-    background-color: #ffffff; /* Set your desired background color */
-    color: #333; /* Set your desired text color */
-    padding: 10px 0; /* Add some padding for better appearance */
+    background-color: #ffffff; 
+    color: #333; 
+    padding: 10px 0; 
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -21,7 +21,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: space-around;
-    flex: 1; /* Take remaining space */
+    flex: 1; 
 }
 
 #header ul li {
@@ -40,12 +40,13 @@ width: 98%;
 }
 h1 {
     text-align: center;
-    color: #333; /* Set your desired text color */
+    color: #333; 
 }
 
 .center-container {
     text-align: center;
-    margin-top: 20px; /* Adjust the top margin as needed */
+    margin-top: 20px; 
+    padding:20px;
 }
 
 .container {
@@ -80,7 +81,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px; /* Adjust the gap between grid items as needed */
+    grid-gap: 20px; 
     max-width: 90%;
     margin: 20px auto;
 }
@@ -97,7 +98,7 @@ img {
 }
 
 .styled {
-    border: 2px solid; /* Specify the unit for border */
+    border: 2px solid; 
     line-height: 2.5;
     margin-left: 41%;
     padding: 10px 20px;
@@ -139,7 +140,7 @@ body {
 .grid-containers {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-gap: 20px; /* Adjust the gap between grid items as needed */
+    grid-gap: 20px; 
     max-width: 80px;
     margin-left: 30% ;
     padding: 30px;
@@ -147,7 +148,7 @@ body {
 
 .grid-items {
     overflow: hidden;
-    border: 1px solid #ddd; /* Add border for better separation */
+    border: 1px solid #ddd; 
     padding: 20px;
     text-align: center;
 }
@@ -155,7 +156,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px; /* Adjust the gap between grid items as needed */
+    grid-gap: 20px; 
     max-width: 800px;
     margin: 20px auto;
 }
@@ -163,9 +164,10 @@ body {
 .grid-container p{text-align: left;}
 .grid-item {
     overflow: hidden;
-    border: 1px solid #ddd; /* Add border for better separation */
+    border: 1px solid #ddd;
     padding: 20px;
     text-align: center;
+    text-shadow: #000;
 }
 
 img {
@@ -173,9 +175,8 @@ img {
     height: auto;
     display: block;
     max-width: 100%;
-    margin-bottom: 10px; /* Add space between image and text */
+    margin-bottom: 10px; 
 }
-
 h3 {
     margin-top: 0;
 }
@@ -252,6 +253,3 @@ h3 {
     justify-content: space-between;
     align-items: center;
   }
-
-
-  
